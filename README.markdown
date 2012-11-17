@@ -139,6 +139,10 @@ word, even if that word is CamelCasedLikeThis. Using CamelCaseMotion, you can
 use `,w` to move to the next part of the CamelCasedWord. `:help camelcasemotion`
 for more information.
 
+### VimClojure ###
+
+Syntax highlighting, indenting and command completion for Clojure.
+
 ### Ctrl-P ###
 
 Ctrl-P is a plugin that does fuzzy file-finding for you. It does this in a few
@@ -230,6 +234,10 @@ rails` if you're interested.
 
 Repeat.vim is basically a utility plugin that makes actions some other plugins
 take repeatable using `.` like normal vim operations.
+
+### Slime ###
+
+Grab some text and "send" it to a GNU Screen / tmux session.
 
 ### Slurper ###
 
