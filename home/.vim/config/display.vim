@@ -18,3 +18,7 @@ autocmd WinLeave * setlocal nocursorline
 " highlight the current column in current window; may slow down redrawing for long lines or large files
 autocmd WinEnter * setlocal cursorcolumn
 autocmd WinLeave * setlocal nocursorcolumn
+
+" highlight columns over 80 characters in length
+highlight OverLength ctermbg=red ctermfg=white guibg=#FF9999
+match OverLength /\%81v.\+/ "
