@@ -188,6 +188,11 @@ This is a pretty useful little plugin that lets you post stuff to
 gist.github.com directly from inside vim. Run `:help gist` to see details on how
 to use it.
 
+### GitGutter ###
+
+Displays git diff in the 'gutter' (sign column).  It shows whether each line has
+been added, modified, and where lines have been removed.
+
 ### Indent Guides ###
 
 Most IDEs provide you with some kind of a dotted line or other visual aid to
