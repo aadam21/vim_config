@@ -8,6 +8,8 @@ let g:ctrlp_match_window_reversed = 1
 " Wish there was a better fix for this, may investigate later.
 " set wildignore+=*/.git/*,*/.svn/*
 
+let g:ctrlp_custom_ignore = '\v[\/](\.git|\.hg|\.svn)$'
+
 " Keybindings
 " Use <Leader>b for opening the buffers list.
 map <Leader>b :CtrlPMRUFiles<CR>
