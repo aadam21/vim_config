@@ -151,6 +151,12 @@ MRU finder (most recently used - it searches through files you've opened
 recently, which is bound to `;b`). Run `:help ctrlp` to read more about this
 plugin.
 
+### Cucumber ###
+
+This provides syntax highlightling, indenting, and a filetype plugin for
+Cucumber, the acceptance testing framework. It's mostly self explanatory. You
+can use CTRL-] on a step to jump to its Ruby definition.
+
 ### EasyMotion ###
 
 EasyMotion provides a much simpler way to use some motions in vim. It takes the
