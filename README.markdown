@@ -235,6 +235,10 @@ your fingertips by default, and does color-coding on your status bars based on
 window type, whether it's the active window, and what mode you're in. `:help
 powerline` is useful if you want to customize this.
 
+### Puppet Syntax ###
+
+Adds syntax highlighting for puppet.
+
 ### Rails.vim ###
 
 Rails.vim provides a slew of niceties for interacting with Rails applications
