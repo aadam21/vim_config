@@ -54,7 +54,7 @@ Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
 Bundle 'majutsushi/tagbar'
 Bundle 'duwanis/tomdoc.vim'
-Bundle 'skalnik/vim-vroom.vim'
+Bundle 'skalnik/vim-vroom'
 Bundle 'mattn/webapi-vim'
 
 """ Custom Configs include.
