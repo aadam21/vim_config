@@ -23,7 +23,7 @@ set expandtab
 set autoread
 
 " wrap lines rather than make use of the horizontal scrolling
-set wrap
+" set wrap
 " try not to wrap in the middle of a word
 set linebreak
 " use an 80-character line limit
