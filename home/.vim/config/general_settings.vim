@@ -31,3 +31,6 @@ filetype plugin indent on
 syntax on
 
 set clipboard=unnamed
+
+"autosave when file focus is lost
+autocmd FocusLost * :wa
