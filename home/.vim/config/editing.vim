@@ -9,7 +9,7 @@ set backspace=indent,eol,start
 " Same for left/right nav keys.
 set whichwrap+=<,>,h,l
 
-set listchars=tab:▸\ ,eol:¬,trail:☠
+set listchars=tab:▸\ ,eol:¬,trail:☠,precedes:<,extends:>
 
 " Use spaces instead of tabs, and
 " prefer 3 spaces.
@@ -22,8 +22,8 @@ set expandtab
 " window)
 set autoread
 
-" wrap lines rather than make use of the horizontal scrolling
-" set wrap
+" use horizontal scrolling
+set nowrap
 " try not to wrap in the middle of a word
 set linebreak
 " use an 80-character line limit
