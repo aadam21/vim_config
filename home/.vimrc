@@ -71,3 +71,8 @@ Bundle 'mattn/webapi-vim'
 " All custom config settings are stored in the .vim/config folder to
 " differentiate them from 3rd-party libraries.
 runtime! config/**/*
+
+" <cr> should not only clear highlighted search, but flash the current
+" cursor location.
+" causes problems with ack
+" :nnoremap <CR> :nohlsearch<CR>:set cul cuc<cr>:sleep 50m<cr>:set nocul nocuc<cr>/<BS>
