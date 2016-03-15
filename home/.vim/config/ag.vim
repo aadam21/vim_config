@@ -2,4 +2,4 @@
 """""""""""""""
 
 " Use <Leader>a to prompt you for an Ack! search
-map <Leader>a :Ag<SPACE>"
+map <Leader>a :Ag<SPACE>
