@@ -139,9 +139,16 @@ word, even if that word is CamelCasedLikeThis. Using CamelCaseMotion, you can
 use `,w` to move to the next part of the CamelCasedWord. `:help camelcasemotion`
 for more information.
 
-### VimClojure ###
+### Clojure support ###
 
-Syntax highlighting, indenting and command completion for Clojure.
+Syntax highlighting, repl support, indenting and command completion for Clojure
+via the following plugins:
+
+guns/vim-clojure-highlight
+guns/vim-clojure-static
+tpope/vim-fireplace
+kien/rainbow_parentheses.vim
+tpope/vim-salve.vim
 
 ### Ctrl-P ###
 
