@@ -30,6 +30,7 @@ set noerrorbells
 filetype plugin indent on
 syntax on
 
+" Allow yanks to be stored in system clipboard
 set clipboard=unnamed
 
 "autosave when file focus is lost
