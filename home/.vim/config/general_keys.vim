@@ -59,3 +59,12 @@ noremap ` '
 map <Leader>e :e <C-R>=expand("%:p:h") . '/'<CR>
 map <Leader>s :split <C-R>=expand("%:p:h") . '/'<CR>
 map <Leader>v :vnew <C-R>=expand("%:p:h") . '/'<CR>""
+
+" Arrow keys resize vim panes
+nnoremap <silent> <Up> :resize -2<CR>
+nnoremap <silent> <Down> :resize +2<CR>
+nnoremap <silent> <Left> :vertical resize +2<CR>
+nnoremap <silent> <Right> :vertical resize -2<CR>
+
+" Always assume paste mode when pasting from system clipboard
+noremap <silent> <C-r>* <C-o>:setl paste<CR><C-r>*<C-o>:setl nopaste<CR>
