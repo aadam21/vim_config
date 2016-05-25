@@ -2,7 +2,7 @@
 " in this configuration; I prefer to use ; for <Leader> since it's right on
 " the home row, but change it as you prefer and all the keybindings will be
 " updated appropriately.
-let mapleader = ";"
+let mapleader = "\<Space>"
 
 """ Vundle settings.
 " Make use of Vundle to handle our packages with five easy steps:
@@ -56,8 +56,10 @@ Bundle 'tpope/vim-rake'
 Bundle 'tpope/vim-rails'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'thoughtbot/vim-rspec'
+Bundle 'danro/rename.vim'
 Bundle 'tpope/vim-repeat'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'tpope/vim-salve'
 Bundle 'slim-template/vim-slim'
 Bundle 'jpalardy/vim-slime'
