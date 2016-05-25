@@ -21,5 +21,6 @@ autocmd WinEnter * setlocal cursorcolumn
 autocmd WinLeave * setlocal nocursorcolumn
 
 " highlight columns over 80 characters in length
+" TODO: this doesn't seem to work?
 highlight OverLength ctermbg=red ctermfg=white guibg=#FF9999
 match OverLength /\%81v.\+/ "

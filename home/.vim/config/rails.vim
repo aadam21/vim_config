@@ -5,6 +5,7 @@
 " keybindings.
 
 "<Leader>ra and <Leader>rr - open the alternate and related files, relatively
+" TODO: overrridden by subsequent maps in testing??
 map <Leader>ra :A<CR>
 map <Leader>rr :R<CR>
 

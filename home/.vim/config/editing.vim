@@ -9,6 +9,10 @@ set backspace=indent,eol,start
 " Same for left/right nav keys.
 set whichwrap+=<,>,h,l
 
+" Change how tabs, line-endings and trailing white space appears when :set list
+" has been set.
+" Determines which character ">" to display when the screen is too narrow for the
+" amount of text on a line.
 set listchars=tab:▸\ ,eol:¬,trail:☠,precedes:<,extends:>
 
 " Use spaces instead of tabs, and
