@@ -95,10 +95,10 @@ source ~/.vim/config/ag.vim
 source ~/.vim/config/autoclose.vim
 source ~/.vim/config/bufexplorer.vim
 source ~/.vim/config/clojure.vim
+source ~/.vim/config/display.vim
 source ~/.vim/config/colorscheme.vim
 source ~/.vim/config/completion.vim
 source ~/.vim/config/ctrlp.vim
-source ~/.vim/config/display.vim
 source ~/.vim/config/editing.vim
 source ~/.vim/config/fugitive.vim
 source ~/.vim/config/fugitive_gitlab.vim
