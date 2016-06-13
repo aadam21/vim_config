@@ -3,4 +3,5 @@
 """"""""""""""""""""""""""""""""""""""""
 
 " keybindings
-map <Leader>c ,c<space>
+" TODO: conflicts with fzf
+" map <Leader>c ,c<space>

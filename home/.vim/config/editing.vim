@@ -51,10 +51,10 @@ set textwidth=80
 set formatoptions=tcrqn21
 
 " Automatically restore cursor position when possible
-autocmd BufReadPost *
-   \ if line("'\"") > 1 && line("'\"") <= line("$") |
-   \ exe "normal! g`\"" |
-   \ endif
+"autocmd BufReadPost *
+"   \ if line("'\"") > 1 && line("'\"") <= line("$") |
+"   \ exe "normal! g`\"" |
+"   \ endif
 
 " % to bounce from do to end etc.
 runtime! macros/matchit.vim

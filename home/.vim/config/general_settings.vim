@@ -35,4 +35,4 @@ set clipboard=unnamed
 
 "autosave when file focus is lost
 " TODO: this doesn't seem to work?
-autocmd FocusLost * :wa
+" autocmd FocusLost * :wa

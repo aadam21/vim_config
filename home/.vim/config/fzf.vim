@@ -1,6 +1,7 @@
 set rtp+=~/.fzf
 
 " Commits for current file
+" TODO: this is not working
 nnoremap <leader>c :BCommits<cr>
 
 " Tags for current file

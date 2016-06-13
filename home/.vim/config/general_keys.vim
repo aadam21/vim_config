@@ -27,7 +27,7 @@ map <Leader>Q :qa!<CR>
 " <Leader>j moves to the window below the current window,
 " <Leader>k moves to the window above the current window, and
 " <Leader>l moves to the window to the right of the current window.
-map <Leader>h <C-W>h
+map <Leader>h :TmuxNavigateLeft<CR>
 map <Leader>j <C-W>j
 map <Leader>k <C-W>k
 map <Leader>l <C-W>l
