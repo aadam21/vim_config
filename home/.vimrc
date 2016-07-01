@@ -133,3 +133,4 @@ let g:deoplete#enable_at_startup = 1
 
 set splitright
 nnoremap <CR> :noh<CR><CR>
+nnoremap <leader>. :vs<CR>:OpenAlternate<CR>
