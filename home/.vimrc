@@ -130,3 +130,5 @@ source ~/.vim/config/undotree.vim
 "" causes problems with ack
 "" :nnoremap <CR> :nohlsearch<CR>:set cul cuc<cr>:sleep 50m<cr>:set nocul nocuc<cr>/<BS>
 let g:deoplete#enable_at_startup = 1
+
+set splitright
