@@ -46,11 +46,11 @@ Plugin 'tpope/vim-haml'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'itchyny/lightline.vim'
 Plugin 'wallace/vim-matchit'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'cyphactor/vim-open-alternate'
-Plugin 'Lokaltog/vim-powerline'
 Plugin 'puppetlabs/puppet-syntax-vim'
 Plugin 'tpope/vim-rake'
 Plugin 'tpope/vim-rails'
@@ -112,7 +112,6 @@ source ~/.vim/config/gist.vim
 source ~/.vim/config/gui.vim
 source ~/.vim/config/nerdcommenter.vim
 source ~/.vim/config/nerdtree.vim
-source ~/.vim/config/powerline.vim
 source ~/.vim/config/rails.vim
 source ~/.vim/config/rainbow_parentheses.vim
 source ~/.vim/config/ruby.vim
