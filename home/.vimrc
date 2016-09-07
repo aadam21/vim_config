@@ -2,7 +2,8 @@
 " in this configuration; I prefer to use ; for <Leader> since it's right on
 " the home row, but change it as you prefer and all the keybindings will be
 " updated appropriately.
-let mapleader="\<Space>"
+let mapleader=";"
+let &colorcolumn=join(range(81,999),",")
 
 "  """ Vundle settings.
 " Make use of Vundle to handle our packages with five easy steps:
@@ -10,7 +11,7 @@ let mapleader="\<Space>"
 set nocompatible
 filetype off
 " 2) Add Vundle to the runtime path.
-set rtp+=~/.vim/bundle/Vundle.vim/
+set rtp+=~/.vim/bundle/Vundle.vim
 " 3) Initialize Vundle.
 call vundle#begin()
 " 4) Let Vundle manage Vundle.
@@ -80,7 +81,7 @@ Plugin 'benmills/vimux'
 Plugin 'skalnik/vim-vroom'
 Plugin 'mattn/webapi-vim'
 Plugin 'neomake/neomake'
-Plugin 'Shougo/deoplete.nvim'
+"Plugin 'Shougo/deoplete.nvim'
 Plugin 'mbbill/undotree'
 
 call vundle#end()         "required

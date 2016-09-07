@@ -1,5 +1,7 @@
 """ Global settings for editing files
 
+set encoding=utf-8
+
 " Automatically indent lines, and try to do it intelligently
 set autoindent
 set smartindent
@@ -16,7 +18,7 @@ set whichwrap+=<,>,h,l
 set listchars=tab:▸\ ,eol:¬,trail:☠,precedes:<,extends:>
 
 " Use spaces instead of tabs, and
-" prefer 3 spaces.
+" prefer 2 spaces.
 set softtabstop=2
 set tabstop=2
 set shiftwidth=2
