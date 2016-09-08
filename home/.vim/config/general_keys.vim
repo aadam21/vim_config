@@ -66,5 +66,8 @@ nnoremap <silent> <Down> :resize +2<CR>
 nnoremap <silent> <Left> :vertical resize +2<CR>
 nnoremap <silent> <Right> :vertical resize -2<CR>
 
+" <Leader>r runs RuboCop against its set config
+map <Leader>r :RuboCop<CR>
+
 " Always assume paste mode when pasting from system clipboard
 noremap <silent> <C-r>* <C-o>:setl paste<CR><C-r>*<C-o>:setl nopaste<CR>

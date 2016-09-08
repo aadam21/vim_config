@@ -4,12 +4,13 @@
 " updated appropriately.
 let mapleader=";"
 let &colorcolumn=join(range(81,999),",")
+let g:vimrubocop_config = '~/Developer/PowerHRG/nitro-web/rubocop.yml'
 
 "  """ Vundle settings.
 " Make use of Vundle to handle our packages with five easy steps:
 " 1) Set config settings required for Vundle to startup.
 set nocompatible
-filetype off
+filetype on
 " 2) Add Vundle to the runtime path.
 set rtp+=~/.vim/bundle/Vundle.vim
 " 3) Initialize Vundle.
@@ -83,6 +84,7 @@ Plugin 'mattn/webapi-vim'
 Plugin 'neomake/neomake'
 "Plugin 'Shougo/deoplete.nvim'
 Plugin 'mbbill/undotree'
+Plugin 'ngmy/vim-rubocop'
 
 call vundle#end()         "required
 filetype plugin indent on "required
