@@ -26,6 +26,9 @@ set shortmess=filmnrxtTI
 " Stop ringing at me.
 set noerrorbells
 
+" Always show line numbers
+set number
+
 " Filetype settings and syntax should be enabled.
 filetype plugin indent on
 syntax on
